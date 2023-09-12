@@ -2,8 +2,9 @@ package Collections.Set;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
+import java.util.Set;
 
-public class ConjuntoHashSet {
+public class ConjuntoHashSetBaguncado {
 
     public static void main(String[] args) {
 
@@ -19,7 +20,7 @@ public class ConjuntoHashSet {
         for (Object i:conjunto) {
             System.out.println(i);
         }
-
+        System.out.println(conjunto);
         System.out.println("\n");
         System.out.println(conjunto.size());
         System.out.println("\n");
@@ -29,5 +30,20 @@ public class ConjuntoHashSet {
         System.out.println(conjunto.remove(true));
         System.out.println(conjunto.size());
         System.out.println(conjunto.contains(true));
+
+        //Outra forma de iniciar a coleção
+        Set numeros = new HashSet();
+        numeros.add(1);
+        numeros.add(2);
+        numeros.add(3);
+
+        //União dos conjuntos
+        conjunto.addAll(numeros); // Retorna um boolean
+        System.out.println(conjunto);
+        numeros.addAll(conjunto); // Retorna um boolean
+        System.out.println(numeros);
+
+
+
     }
 }

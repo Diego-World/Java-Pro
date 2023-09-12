@@ -1,6 +1,6 @@
 package Collections.Set;
 
-public class Set {
+public class SetNotes {
 
     /*
      * SET:
