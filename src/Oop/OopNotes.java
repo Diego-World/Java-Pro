@@ -24,6 +24,8 @@ public class OopNotes {
     *            }
     *
     *           * A relação bidirecional deve ser coerente e essa é uma estratégia de como implementar *
+    *
+    *   Relação UM PARA MUITOS, pode ser representado quando uma classe recebe um ou mais objetos como atributo através de uma estrutura de dados.
     *  ------------------------------------------------------------------------------------------------------------------------------------------
     * Notes: Quanto mais as classes forem DEPENDENTES (Acopladas) uma das outras, mais complexo é o trabalho sobre o app.
     *
