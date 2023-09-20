@@ -1,0 +1,14 @@
+
+                                                O desafio consiste em criar um pequeno app de compra.
+
+        Relacionando as classes: Cliente, Compra, Item e Produto.
+
+Relacionamentos:
+
+Cliente 1 -> n Compra
+Compra 1 -> n Item
+Item n -> 1 Produto
+
+Metódos:
+
+O cliente deve ter um metódo que retorna o valor total gasto.
