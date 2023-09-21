@@ -67,25 +67,71 @@ public class OopNotes {
     *
     *
     *   2° Princípio: Herança
-    *    Re-uso de código
+    *
+    *   Re-uso de código
     *       Composição X Herança
     *
     * Composição é mais flexível
+    * Tomar cuidado com hierarquia muitos grandes
+    *
+    * Quanto mais genérico for a classe, menos comportamentos deve ter
+    *
+    * Nem toda hierarquia gera herança, ex: exército.
+    *
+    * Padrões de projetos são adptados para cada problema
+    *
+    *  Decorator, trocar herança por composição
+    *
+    * Java não tem herança múltipla
     *
     *
     * Composição = Tem um(a) = Carro TEM UM motor
     * Herança = É um(a) = Civic É UM carro
     *
+    * Junta com a herança temos o sobrescrever
+    * ou @Overriding
+    *   Na classe herdeira (Subclasse)
+    *   podemos usar a primeira implementação
+    *   da superclass e depois complementar
+    *   na classe filho
     *
-    * 
+    *   HERANÇA : 'EXTENDS'
     *
     *   3° Princípio: Polimorfismo
     *    Usar conceito genérico para algo específico
     *
+    *   Existe dois tipos de Polimorfismo
+    *
+    *   'Estático x Dinâmico'
+    *
+    *   Estático = Sobrecarga (Polimorfismo estático)
+    *     Usar o mesmo nome com parametros diferentes
+    *
+    *   Você escreve!
+    *
+    *   Polimorfismo dinâmico - Herança
+    *
+    *   List<> lista = new Arraylist<>();
+    *     ^                    ^
+    *     |--------------------|
+    *
+    *   Metódos com a superclasss, torna
+    *   as subclasses váriaveis, implementando
+    *   o polimorfismo
+    *
+    *   Hierarquia de herança
+    *
     *   4° Princípio: Abstração
     *       Trazer algo do mundo real para software, abstraindo as necessidades do negócio.
     *
+    *   Espelhar o mundo real
     *
+    *
+    *
+    *   ENUM
+    *  --------
+    *   Um ENUM serve para quando temos uma quantidade
+    *   Definida de possiblidades
     *
     *
     *
