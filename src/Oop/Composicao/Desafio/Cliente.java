@@ -7,12 +7,20 @@ public class Cliente {
     String nome;
     List<Compra> compras = new ArrayList<>();
 
-    public double getValorGasto(){
-        double valorGasto = 0;
-        int unidades = 0;
-
+    public Cliente(String nome) {
+        this.nome = nome;
+    }
+    double getValorGasto(){
+        double total = 0;
         if(!compras.isEmpty()){
+            for(Compra compra:this.compras) {
+                total += compra.getValorCompra();
+            }
         }
-        return 0.0;
+        return total;
+    }
+
+    void adicionarCompra(Compra compra){
+        this.compras.add(compra);
     }
 }

@@ -6,11 +6,18 @@ import java.util.List;
 public class Compra {
     List<Item> itens = new ArrayList<>();
 
-    public List<Item> getItens() {
-        return itens;
+    void adicionarItem(Item item){
+        this.itens.add(item);
     }
 
-    public void setItens(List<Item> itens) {
-        this.itens = itens;
+    double getValorCompra(){
+        double total = 0;
+        if(!itens.isEmpty()){
+            for(Item i:this.itens) {
+                total += i.produto.preco * i.quantidade;
+            }
+        }
+        return total;
     }
 }
+
