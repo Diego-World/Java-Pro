@@ -15,10 +15,10 @@ public class Pista {
         carros.add(bmw1);
         carros.add(mercedes);
 
-        for(int i = 0;i<5;i++){
+        for(int i = 0;i<10;i++){
             f1.acelerar();
         }
-        for(int i = 0;i<5;i++){
+        for(int i = 0;i<15;i++){
             bmw1.acelerar();
         }
         for(int i = 0;i<5;i++){
@@ -34,8 +34,6 @@ public class Pista {
         }
 
         System.out.println(f1.velocimetro());
-
-        ]
 
     }
 }

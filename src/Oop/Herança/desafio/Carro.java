@@ -1,7 +1,12 @@
 package Oop.Herança.desafio;
 
 public class Carro {
+    final int VELOCIDADE_MAXIMA;
     int velocidadeAtual;
+
+    Carro(int velocidadeMaxima){
+        VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
 
     public String velocimetro(){
         String velocidade = String.valueOf(velocidadeAtual);
@@ -9,7 +14,11 @@ public class Carro {
     }
 
     public void acelerar(){
-        velocidadeAtual += 5;
+        if(velocidadeAtual + 5 > VELOCIDADE_MAXIMA){
+            velocidadeAtual = VELOCIDADE_MAXIMA;
+        }else{
+            velocidadeAtual += 5;
+        }
     }
 
     public void freiar(){
