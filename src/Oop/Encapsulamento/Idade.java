@@ -15,6 +15,10 @@ public class Idade {
         return anos;
     }
 
+    public int getAnosEmMeses(){
+        return this.anos*12;
+    }
+
     public void setAnos(int anos) {
         if (idadePositivaValidacao(anos)) {
             this.anos = anos;
