@@ -2,9 +2,9 @@ package Oop.Herança.desafio;
 
 public class Carro {
     public final int VELOCIDADE_MAXIMA;
-    int velocidadeAtual;
+    protected int velocidadeAtual;
 
-    public Carro(int velocidadeMaxima){
+    protected Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
     }
 
