@@ -2,7 +2,7 @@ package Oop.Herança.desafio;
 
 public class Bmw extends Carro{
 
-    Bmw(){
+    public Bmw(){
         super(75);
     }
 

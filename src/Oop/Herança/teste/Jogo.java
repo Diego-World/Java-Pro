@@ -1,4 +1,7 @@
-package Oop.Herança;
+package Oop.Herança.teste;
+
+import Oop.Herança.Heroi;
+import Oop.Herança.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {

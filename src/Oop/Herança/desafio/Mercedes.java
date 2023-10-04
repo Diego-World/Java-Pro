@@ -1,7 +1,7 @@
 package Oop.Herança.desafio;
 
 public class Mercedes extends Carro{
-    Mercedes(){
+    public Mercedes(){
         super(75);
     }
 }

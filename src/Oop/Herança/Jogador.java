@@ -1,11 +1,11 @@
 package Oop.Herança;
 
 public class Jogador {
-    int x;
-    int y;
-    int vida = 100;
+    public int x;
+    public int y;
+    public int vida = 100;
 
-     boolean atacar(Jogador oponente){
+     public boolean atacar(Jogador oponente){
 
          int deltaX = Math.abs(x - oponente.x);
          int deltaY = Math.abs(y - oponente.y);
@@ -20,7 +20,7 @@ public class Jogador {
         return true;
     }
 
-    boolean andar(Direcao direcao){
+    public boolean andar(Direcao direcao){
         if(x < 0 || y < 0){
         switch (direcao){
             case NORTE:
