@@ -20,7 +20,7 @@ public class Pista {
         carros.add(bmw1);
         carros.add(mercedes);
 
-        for(int i = 0;i<10;i++){
+        for(int i = 0;i<1;i++){
             f1.acelerar();
         }
         for(int i = 0;i<15;i++){
@@ -34,9 +34,12 @@ public class Pista {
             System.out.println(carro.velocimetro());
         }
 
-        for(int i = 0;i<10;i++){
-            f1.freiar();
-        }
+        f1.ligarTurbo();
+        f1.acelerar();
+        f1.desligarTurbo();
+//        for(int i = 0;i<20;i++){
+//            f1.freiar();
+//        }
 
         System.out.println(f1.velocimetro());
 

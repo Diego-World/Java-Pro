@@ -3,6 +3,7 @@ package Oop.Herança.desafio;
 public class Carro {
     public final int VELOCIDADE_MAXIMA;
     protected int velocidadeAtual;
+    protected int delta = 5;
 
     protected Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -14,15 +15,15 @@ public class Carro {
     }
 
     public void acelerar(){
-        if(velocidadeAtual + 5 > VELOCIDADE_MAXIMA){
+        if(velocidadeAtual + delta > VELOCIDADE_MAXIMA){
             velocidadeAtual = VELOCIDADE_MAXIMA;
         }else{
-            velocidadeAtual += 5;
+            velocidadeAtual += delta;
         }
     }
 
     public void freiar(){
-        if(velocidadeAtual>=0){
+        if(velocidadeAtual >= 5 ){
             velocidadeAtual -= 5;
         }else{
             velocidadeAtual = 0;
