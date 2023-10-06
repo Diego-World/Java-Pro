@@ -105,7 +105,7 @@ public class OopNotes {
     *   'Estático x Dinâmico'
     *
     *   Estático = Sobrecarga (Polimorfismo estático)
-    *     Usar o mesmo nome com parametros diferentes
+    *     Usar a mesma assinatura de metódo com parametros diferentes
     *
     *   Você escreve!
     *
