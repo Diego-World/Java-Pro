@@ -30,6 +30,11 @@ public class Ferrari extends Carro implements Esportivo,Luxo {
     }
 
     @Override
+    public int velocidadeDoAr() {
+        return 0;
+    }
+
+    @Override
     public int getDelta() {
         if(ligarTurbo && !ligarAr) {
             return 35;

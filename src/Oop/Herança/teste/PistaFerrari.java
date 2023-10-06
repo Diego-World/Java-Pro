@@ -26,5 +26,6 @@ public class PistaFerrari {
         ferrariBranca.freiar();
         ferrariBranca.freiar();
         System.out.println(ferrariBranca.velocimetro());
+        System.out.println(ferrariBranca.velocidadeDoAr());
     }
 }
