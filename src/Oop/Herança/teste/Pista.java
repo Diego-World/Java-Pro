@@ -37,9 +37,12 @@ public class Pista {
         f1.ligarTurbo();
         f1.acelerar();
         f1.desligarTurbo();
-//        for(int i = 0;i<20;i++){
-//            f1.freiar();
-//        }
+        f1.acelerar();
+        System.out.println(f1.velocimetro());
+
+        for(int i = 0;i<20;i++){
+            f1.freiar();
+        }
 
         System.out.println(f1.velocimetro());
 
