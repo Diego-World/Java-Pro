@@ -7,6 +7,7 @@ public class Jantar {
         Arroz comida1 = new Arroz(0.25);
         Feijão comida2 = new Feijão(0.1);
         Sorvete comida3 = new Sorvete(0.2);
+//      Comida comida4 = new Comida(); // Classes abstract não podem ser instÂnciados
 
         convidado.comer(comida1);
         convidado.comer(comida2);
