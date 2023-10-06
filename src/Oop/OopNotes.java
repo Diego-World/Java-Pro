@@ -136,10 +136,12 @@ public class OopNotes {
     *
     *
     *
+    *   A aplicação da orientação objeto consiste em servir como base para outros conceitos da programação,
+    *   como por exemplo o DDD (domain drive design), a OO serve como porta de entrada para aplicação de técnicas.
     *
     *
-    *
-    *
+    *   Por exemplo um pilar da OO que é a herança serve como apoio para a utilização de classes abstratas, uma vez
+    *   que não faz muito sentido ter uma classe abstrata que não pode ser herdada.
     *
     *
     *
