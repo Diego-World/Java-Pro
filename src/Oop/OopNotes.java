@@ -132,7 +132,14 @@ public class OopNotes {
     *  --------
     *   Um ENUM serve para quando temos uma quantidade
     *   Definida de possiblidades
+    * ==================================================
+    *   Rocketseat
     *
+    *   @Column(unique = true) = Constrain no banco de dados
+    *   Que diz que os registro nessa coluna devem ser únicos
+    *
+    *   @CREATIONTIMESTAMP
+    *   Data createdAt
     *
     *
     *
