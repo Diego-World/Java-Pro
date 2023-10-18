@@ -20,5 +20,6 @@ public class Consumidor {
                 Arrays.asList(produto,produto1,produto2);
 
         produtos.forEach(imprimir);
+        produtos.forEach(System.out::println);
     }
 }

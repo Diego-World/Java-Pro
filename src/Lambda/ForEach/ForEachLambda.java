@@ -14,7 +14,7 @@ public class ForEachLambda {
         }
 
         System.out.println("\nForEach Lambda 01");
-        livros.forEach(nome -> System.out.println(nome));
+        livros.forEach(nome -> System.out.println(nome+", ótimo livro"));
 
         System.out.println("\nForEach Lambda 02 - Method Reference");
         livros.forEach(System.out::println);
