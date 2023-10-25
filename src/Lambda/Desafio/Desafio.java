@@ -39,7 +39,6 @@ public class Desafio {
                 .andThen(arredondar)
                 .andThen(formatar)
                 .apply(p));
-
     }
 
 }
