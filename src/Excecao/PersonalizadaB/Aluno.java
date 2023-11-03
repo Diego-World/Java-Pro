@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaB;
 
 import java.util.Objects;
 

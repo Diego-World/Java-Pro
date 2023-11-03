@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaA;
 
 public class Validar {
     private Validar(){

@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaB;
 
 public class TesteValidacoes {
     public static void main(String[] args) {

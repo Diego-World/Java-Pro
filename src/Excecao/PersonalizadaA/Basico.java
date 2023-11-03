@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaA;
 
 import streams.Aluno;
 

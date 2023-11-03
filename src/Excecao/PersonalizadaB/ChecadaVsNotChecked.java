@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaB;
 
 public class ChecadaVsNotChecked {
     public static void main(String[] args) {

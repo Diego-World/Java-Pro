@@ -1,4 +1,4 @@
-package Excecao;
+package Excecao.PersonalizadaA;
 @SuppressWarnings("serial")
 public class StringVaziaException extends RuntimeException{
     private String nomeDoAtribudo;
